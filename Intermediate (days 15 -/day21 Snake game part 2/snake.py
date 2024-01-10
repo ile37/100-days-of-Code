@@ -1,17 +1,17 @@
 from turtle import Turtle
 
 MOVE_DISTANCE = 20
+SNAKE_SIZE = 3
 
 class Snake():
 
-    def __init__(self, start_size=3):
+    def __init__(self):
         self.snake = []
-        self.create_snake(start_size)
+        self.create_snake()
         self.head = self.snake[0]
 
-    def create_snake(self, start_size):
-        
-        for _ in range(start_size):
+    def create_snake(self):      
+        for _ in range(SNAKE_SIZE):
             self.add_block()
             
     def add_block(self):
@@ -47,3 +47,10 @@ class Snake():
     def right(self):
         if self.head.heading() != 180:
             self.head.setheading(0)
+
+    def reset(self):
+        for block in self.snake:
+            block.goto(1000, 1000)
+        self.snake.clear()
+        self.create_snake()
+        self.head = self.snake[0]
