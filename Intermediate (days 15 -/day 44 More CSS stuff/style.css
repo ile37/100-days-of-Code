@@ -6,14 +6,14 @@ div {
     align-items: center;
     display: flex;
     flex-direction: column;
-    margin: top 40px;
+    margin: 40px;
     background-color: black;
 }
 
 img {
     width: auto;
     height: 200px;
-    border: 5px solid white;
+    border: 2px solid white;
 }
 
 h1 {
@@ -22,8 +22,9 @@ h1 {
 }
 
 p {
-    font-size: 12px;
+    font-size: 10px;
     color: white;
+    margin-top: 0px;
 }
 
 .libre-baskerville-regular {
