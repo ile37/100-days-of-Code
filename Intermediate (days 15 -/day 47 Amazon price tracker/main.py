@@ -5,7 +5,7 @@ import os
 
 
 TRESHOLD_PRICE = 59.99
-USER_AGENT =  "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:122.0) Gecko/20100101 Firefox/122.0" # os.environ.get('USER_AGENT')
+USER_AGENT = os.environ.get('USER_AGENT')
 
 # bech power supply
 product_to_track_url = "https://www.amazon.com/Jesverty-Adjustable-Switching-Encoder-Knob/dp/B0CBM2D3DW/ref=sr_1_9?crid=3QHAIEOCTU0MV&dib=eyJ2IjoiMSJ9.RCZpnlCWNZMdqXloK16JBXOAciqmPWoggW9lWB86wNEAT1qcXo_jnxhuFU_oywM6PVeM-s7JRe58j5dPmJXZwfMiqjXq7GnKpHct9aWGDjifEAIkq2BWhbzRo1S9WY7ugPDtUzR698jLuPd2fBt7b_pczcEgOyt4MZFyGN1mYa5NV8WIahEnZnJW6LQjDQOelV1JS7St9g4HAqDdkP1E5Ng6bLpcW7eVDPa3yVQxqYo.T9VQq4C4VVrA4h3l1dxKHohe2Y_KsDMoSUAuu6gQFSk&dib_tag=se&keywords=bench+power+supply&qid=1708717238&sprefix=bech+power+%2Caps%2C218&sr=8-9"
